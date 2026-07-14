@@ -1,0 +1,25 @@
+# Sensitive/local files
+.ssh/
+.kube/
+.minikube/
+.docker/
+.cache/
+*.pem
+*.key
+
+# Shell/editor
+.bash_history
+.viminfo
+.lesshst
+*.swp
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Helm packages
+*.tgz
+
+# Logs
+*.log
